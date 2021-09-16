@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ug.app.ihrisbiometric.MainActivity">
+
+    <item
+        android:visibility="gone"
+        android:id="@+id/action_view_enrolled"
+        android:orderInCategory="100"
+        android:title="@string/enrolled_staff"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sync_clock"
+        android:orderInCategory="100"
+        android:title="@string/sync_clock"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sync_enroll"
+        android:orderInCategory="100"
+        android:title="@string/sync_enroll"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_signout"
+        android:orderInCategory="100"
+        android:title="@string/sign_out"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_wipe_device"
+        android:orderInCategory="100"
+        android:title="@string/wipe_device"
+        app:showAsAction="never" />
+</menu>

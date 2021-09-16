@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/facilityName"
+        android:textAlignment="center"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="IHRIS ATTEND"
+        android:textSize="28sp" />
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextClock
+            android:id="@+id/textClock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:paddingLeft="20dp"
+            android:textSize="20sp"
+            android:text="Clock In/Out"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/fingerprint"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="30dp"
+        android:src="@drawable/fingerprint" />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/fingerprint2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="30dp"
+        android:src="@drawable/fingerprint2" />
+
+    <!--<EditText-->
+        <!--android:visibility="gone"-->
+        <!--android:id="@+id/editUserID"-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:background="#63a7ff"-->
+        <!--android:inputType="number"-->
+        <!--android:hint="IHRIS ID e.g 12345"-->
+        <!--android:text=""/>-->
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="IHRIS Biometric Ready"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+</LinearLayout>

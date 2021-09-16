@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BIOMETRIC SYSTEM</string>
+    <string name="title_activity_main">BIOMETRIC SYSTEM</string>
+    <string name="sign_out">Sign out</string>
+    <string name="wipe_device">Wipe device</string>
+    <string name="sync_clock">Sync Clock Data</string>
+    <string name="sync_enroll">Sync Enroll Data</string>
+    <string name="enrolled_staff">Enrolled Staff</string>
+</resources>
